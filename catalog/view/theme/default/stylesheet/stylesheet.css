@@ -1113,8 +1113,14 @@ h2.price {
 	.navbar-nav {
 		padding-bottom: 0;
 	}
+
 	#menu {
 		height: 125px;
 	}
 
+}
+
+.sale-price {
+	font-weight: 600;
+	color: red;
 }

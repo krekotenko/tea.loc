@@ -1466,6 +1466,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 		$order_data['payment_firstname'] = $this->session->data['payment_address']['firstname'];
 		$order_data['payment_lastname'] = $this->session->data['payment_address']['lastname'];
 		$order_data['payment_company'] = $this->session->data['payment_address']['company'];
+		$order_data['payment_ic'] = $this->session->data['payment_address']['ic'];
 		$order_data['payment_address_1'] = $this->session->data['payment_address']['address_1'];
 		$order_data['payment_address_2'] = $this->session->data['payment_address']['address_2'];
 		$order_data['payment_city'] = $this->session->data['payment_address']['city'];
@@ -1649,6 +1650,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 		}
 
 		$this->load->model('checkout/order');
+		print_r($order_data);exit();
 
 		$this->session->data['order_id'] = $this->model_checkout_order->addOrder($order_data);
 	}

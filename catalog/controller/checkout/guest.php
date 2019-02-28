@@ -53,6 +53,12 @@ class ControllerCheckoutGuest extends Controller {
 			$data['company'] = '';
 		}
 
+		if (isset($this->session->data['payment_address']['ic'])) {
+			$data['ic'] = $this->session->data['payment_address']['ic'];
+		} else {
+			$data['ic'] = '';
+		}
+
 		if (isset($this->session->data['payment_address']['address_1'])) {
 			$data['address_1'] = $this->session->data['payment_address']['address_1'];
 		} else {
@@ -198,9 +204,9 @@ class ControllerCheckoutGuest extends Controller {
 				$json['error']['country'] = $this->language->get('error_country');
 			}
 
-			if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '' || !is_numeric($this->request->post['zone_id'])) {
+			/*if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '' || !is_numeric($this->request->post['zone_id'])) {
 				$json['error']['zone'] = $this->language->get('error_zone');
-			}
+			}*/
 
 			// Customer Group
 			if (isset($this->request->post['customer_group_id']) && is_array($this->config->get('config_customer_group_display')) && in_array($this->request->post['customer_group_id'], $this->config->get('config_customer_group_display'))) {
@@ -250,12 +256,13 @@ class ControllerCheckoutGuest extends Controller {
 			$this->session->data['payment_address']['firstname'] = $this->request->post['firstname'];
 			$this->session->data['payment_address']['lastname'] = $this->request->post['lastname'];
 			$this->session->data['payment_address']['company'] = $this->request->post['company'];
+			$this->session->data['payment_address']['ic'] = $this->request->post['ic'];
 			$this->session->data['payment_address']['address_1'] = $this->request->post['address_1'];
 			$this->session->data['payment_address']['address_2'] = $this->request->post['address_2'];
 			$this->session->data['payment_address']['postcode'] = $this->request->post['postcode'];
 			$this->session->data['payment_address']['city'] = $this->request->post['city'];
 			$this->session->data['payment_address']['country_id'] = $this->request->post['country_id'];
-			$this->session->data['payment_address']['zone_id'] = $this->request->post['zone_id'];
+			//$this->session->data['payment_address']['zone_id'] = $this->request->post['zone_id'];
 
 			$this->load->model('localisation/country');
 
@@ -301,6 +308,7 @@ class ControllerCheckoutGuest extends Controller {
 				$this->session->data['shipping_address']['firstname'] = $this->request->post['firstname'];
 				$this->session->data['shipping_address']['lastname'] = $this->request->post['lastname'];
 				$this->session->data['shipping_address']['company'] = $this->request->post['company'];
+				$this->session->data['shipping_address']['ic'] = $this->request->post['ic'];
 				$this->session->data['shipping_address']['address_1'] = $this->request->post['address_1'];
 				$this->session->data['shipping_address']['address_2'] = $this->request->post['address_2'];
 				$this->session->data['shipping_address']['postcode'] = $this->request->post['postcode'];

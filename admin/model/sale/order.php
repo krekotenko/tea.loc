@@ -106,6 +106,7 @@ class ModelSaleOrder extends Model {
 				'shipping_firstname'      => $order_query->row['shipping_firstname'],
 				'shipping_lastname'       => $order_query->row['shipping_lastname'],
 				'shipping_company'        => $order_query->row['shipping_company'],
+				'shipping_ic'             => $order_query->row['shipping_ic'],
 				'shipping_address_1'      => $order_query->row['shipping_address_1'],
 				'shipping_address_2'      => $order_query->row['shipping_address_2'],
 				'shipping_postcode'       => $order_query->row['shipping_postcode'],

@@ -487,6 +487,7 @@ class ControllerSaleOrder extends Controller {
 			$data['payment_firstname'] = $order_info['payment_firstname'];
 			$data['payment_lastname'] = $order_info['payment_lastname'];
 			$data['payment_company'] = $order_info['payment_company'];
+			$data['payment_ic'] = $order_info['payment_ic'];
 			$data['payment_address_1'] = $order_info['payment_address_1'];
 			$data['payment_address_2'] = $order_info['payment_address_2'];
 			$data['payment_city'] = $order_info['payment_city'];
@@ -573,6 +574,7 @@ class ControllerSaleOrder extends Controller {
 			$data['payment_firstname'] = '';
 			$data['payment_lastname'] = '';
 			$data['payment_company'] = '';
+			$data['payment_company'] = '';
 			$data['payment_address_1'] = '';
 			$data['payment_address_2'] = '';
 			$data['payment_city'] = '';
@@ -585,7 +587,7 @@ class ControllerSaleOrder extends Controller {
 
 			$data['shipping_firstname'] = '';
 			$data['shipping_lastname'] = '';
-			$data['shipping_company'] = '';
+			$data['shipping_ic'] = '';
 			$data['shipping_address_1'] = '';
 			$data['shipping_address_2'] = '';
 			$data['shipping_city'] = '';
@@ -871,13 +873,14 @@ class ControllerSaleOrder extends Controller {
 			if ($order_info['shipping_address_format']) {
 				$format = $order_info['shipping_address_format'];
 			} else {
-				$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+				$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{ic}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
 			}
 
 			$find = array(
 				'{firstname}',
 				'{lastname}',
 				'{company}',
+				'{ic}',
 				'{address_1}',
 				'{address_2}',
 				'{city}',
@@ -891,6 +894,7 @@ class ControllerSaleOrder extends Controller {
 				'firstname' => $order_info['shipping_firstname'],
 				'lastname'  => $order_info['shipping_lastname'],
 				'company'   => $order_info['shipping_company'],
+				'ic'   => $order_info['shipping_ic'],
 				'address_1' => $order_info['shipping_address_1'],
 				'address_2' => $order_info['shipping_address_2'],
 				'city'      => $order_info['shipping_city'],

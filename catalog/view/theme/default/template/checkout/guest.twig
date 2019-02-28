@@ -42,23 +42,23 @@
         <label class="control-label" for="input-payment-custom-field{{ custom_field.custom_field_id }}">{{ custom_field.name }}</label>
         <select name="custom_field[{{ custom_field.location }}][{{ custom_field.custom_field_id }}]" id="input-payment-custom-field{{ custom_field.custom_field_id }}" class="form-control">
           <option value="">{{ text_select }}</option>
-          
-          
+
+
           {% for custom_field_value in custom_field.custom_field_value %}
           {% if guest_custom_field[custom_field.custom_field_id] and custom_field_value.custom_field_value_id == guest_custom_field[custom_field.custom_field_id] %}
           <option value="{{ custom_field_value.custom_field_value_id }}" selected="selected">{{ custom_field_value.name }}</option>
-          
-          
+
+
           {% else %}
-          
-          
+
+
           <option value="{{ custom_field_value.custom_field_value_id }}">{{ custom_field_value.name }}</option>
-          
-          
+
+
           {% endif %}
           {% endfor %}
-        
-        
+
+
         </select>
       </div>
       {% endif %}
@@ -155,6 +155,10 @@
         <label class="control-label" for="input-payment-company">{{ entry_company }}</label>
         <input type="text" name="company" value="{{ company }}" placeholder="{{ entry_company }}" id="input-payment-company" class="form-control" />
       </div>
+      <div class="form-group">
+        <label class="control-label" for="input-payment-ic">IČ/DIČ</label>
+        <input type="text" name="ic" value="{{ ic }}" placeholder="IČ/DIČ" id="input-payment-ic" class="form-control" />
+      </div>
       <div class="form-group required">
         <label class="control-label" for="input-payment-address-1">{{ entry_address_1 }}</label>
         <input type="text" name="address_1" value="{{ address_1 }}" placeholder="{{ entry_address_1 }}" id="input-payment-address-1" class="form-control" />
@@ -175,32 +179,32 @@
         <label class="control-label" for="input-payment-country">{{ entry_country }}</label>
         <select name="country_id" id="input-payment-country" class="form-control">
           <option value="">{{ text_select }}</option>
-          
-          
+
+
          {% for country in countries %}
           {% if country.country_id == country_id %}
-          
-          
+
+
           <option value="{{ country.country_id }}" selected="selected">{{ country.name }}</option>
-          
-          
+
+
           {% else %}
-          
-          
+
+
           <option value="{{ country.country_id }}">{{ country.name }}</option>
-          
-          
+
+
           {% endif %}
           {% endfor %}
-        
-        
+
+
         </select>
       </div>
-      <div class="form-group required">
+      {#<div class="form-group required">
         <label class="control-label" for="input-payment-zone">{{ entry_zone }}</label>
         <select name="zone_id" id="input-payment-zone" class="form-control">
         </select>
-      </div>
+      </div>#}
       {% for custom_field in custom_fields %}
       {% if custom_field.location == 'address' %}
       {% if custom_field.type == 'select' %}
@@ -208,23 +212,23 @@
         <label class="control-label" for="input-payment-custom-field{{ custom_field.custom_field_id }}">{{ custom_field.name }}</label>
         <select name="custom_field[{{ custom_field.location }}][{{ custom_field.custom_field_id }}]" id="input-payment-custom-field{{ custom_field.custom_field_id }}" class="form-control">
           <option value="">{{ text_select }}</option>
-          
-          
+
+
           {% for custom_field_value in custom_field.custom_field_value %}
           {% if guest_custom_field[custom_field.custom_field_id] and custom_field_value.custom_field_value_id == guest_custom_field[custom_field.custom_field_id] %}
           <option value="{{ custom_field_value.custom_field_value_id }}" selected="selected">{{ custom_field_value.name }}</option>
-          
-          
+
+
           {% else %}
-          
-          
+
+
           <option value="{{ custom_field_value.custom_field_value_id }}">{{ custom_field_value.name }}</option>
-          
-          
+
+
           {% endif %}
           {% endfor %}
-        
-        
+
+
         </select>
       </div>
       {% endif %}
@@ -395,7 +399,7 @@ $('#collapse-payment-address input[name=\'customer_group_id\']').on('change', fu
 });
 
 $('#collapse-payment-address input[name=\'customer_group_id\']:checked').trigger('change');
-//--></script> 
+//--></script>
 <script type="text/javascript"><!--
 $('#collapse-payment-address button[id^=\'button-payment-custom-field\']').on('click', function() {
 	var node = this;
@@ -465,7 +469,7 @@ $('.datetime').datetimepicker({
 	pickDate: true,
 	pickTime: true
 });
-//--></script> 
+//--></script>
 <script type="text/javascript"><!--
 $('#collapse-payment-address select[name=\'country_id\']').on('change', function() {
 	$.ajax({
@@ -509,4 +513,4 @@ $('#collapse-payment-address select[name=\'country_id\']').on('change', function
 });
 
 $('#collapse-payment-address select[name=\'country_id\']').trigger('change');
-//--></script> 
+//--></script>

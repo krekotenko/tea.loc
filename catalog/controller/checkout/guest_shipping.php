@@ -20,6 +20,12 @@ class ControllerCheckoutGuestShipping extends Controller {
 		} else {
 			$data['company'] = '';
 		}
+		
+		if (isset($this->session->data['shipping_address']['ic'])) {
+			$data['ic'] = $this->session->data['shipping_address']['ic'];
+		} else {
+			$data['ic'] = '';
+		}
 
 		if (isset($this->session->data['shipping_address']['address_1'])) {
 			$data['address_1'] = $this->session->data['shipping_address']['address_1'];
@@ -154,6 +160,7 @@ class ControllerCheckoutGuestShipping extends Controller {
 			$this->session->data['shipping_address']['firstname'] = $this->request->post['firstname'];
 			$this->session->data['shipping_address']['lastname'] = $this->request->post['lastname'];
 			$this->session->data['shipping_address']['company'] = $this->request->post['company'];
+			$this->session->data['shipping_address']['ic'] = $this->request->post['ic'];
 			$this->session->data['shipping_address']['address_1'] = $this->request->post['address_1'];
 			$this->session->data['shipping_address']['address_2'] = $this->request->post['address_2'];
 			$this->session->data['shipping_address']['postcode'] = $this->request->post['postcode'];

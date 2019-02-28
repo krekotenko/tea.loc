@@ -17,6 +17,12 @@
       <input type="text" name="company" value="{{ company }}" placeholder="{{ entry_company }}" id="input-shipping-company" class="form-control" />
     </div>
   </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label" for="input-shipping-ic">IČ/DIČ</label>
+    <div class="col-sm-10">
+      <input type="text" name="ic" value="{{ ic }}" placeholder="IČ/DIČ" id="input-shipping-ic" class="form-control" />
+    </div>
+  </div>
   <div class="form-group required">
     <label class="col-sm-2 control-label" for="input-shipping-address-1">{{ entry_address_1 }}</label>
     <div class="col-sm-10">
@@ -62,13 +68,13 @@
       </select>
     </div>
   </div>
-  <div class="form-group required">
+  {#<div class="form-group required">
     <label class="col-sm-2 control-label" for="input-shipping-zone">{{ entry_zone }}</label>
     <div class="col-sm-10">
       <select name="zone_id" id="input-shipping-zone" class="form-control">
       </select>
     </div>
-  </div>
+  </div>#}
   {% for custom_field in custom_fields %}
   {% if custom_field.location == 'address' %}
   {% if custom_field.type == 'select' %}
