@@ -1,0 +1,60 @@
+{{ header }}
+<div id="common-home" class="container">
+
+    <ul class="nav nav-tabs">
+        {% for category in categories %}
+        <li {% if loop.index == chosen_tab %} class="active" {% endif %}>
+                <a data-toggle="tab" href="#cat{{ category.category_id }}">
+                    <h4 class="category-name-tab">
+                    {{ category.name }}
+                    </h4>
+                </a>
+
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="tab-content">
+        {% for category in categories %}
+        <div id="cat{{ category.category_id }}" class="tab-pane fade {% if loop.index == chosen_tab %} in active {% endif %}">
+            {#<h3>{{ category.name }}</h3>#}
+            <ul class="filter_row">
+            {% for subcategory in category.categories %}
+                <li class="category_filter">
+                    <input class="filter_checkbox" type="checkbox" name="selected[]" checked value="{{ subcategory.category_id }}">
+                    <div>{{ subcategory.name }}</div>
+                </li>
+            {% endfor %}
+            </ul>
+            {% for subcategory in category.categories %}
+                <div id="row_cat{{ subcategory.category_id }}"class="row category-row">
+                    {#<a href="{{ subcategory.href }}"><h4 class="category-name">{{ subcategory.name }}</h4></a>#}
+                    {% for product in subcategory.products %}
+                        <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="product-thumb transition">
+                                <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+                                <div class="caption">
+                                    <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+
+            {% for product in category.products %}
+                <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="product-thumb transition">
+                        <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
+                        <div class="caption">
+                            <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+{{ footer }}

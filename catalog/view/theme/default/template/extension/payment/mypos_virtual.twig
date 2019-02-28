@@ -1,0 +1,11 @@
+<form name="mypos_virtual" action="{{  action }}" method="post">
+    {% for name, value in post %}
+        <input type="hidden" name="{{ name }}" value="{{ value|e }}">
+    {% endfor %}
+</form>
+
+<div class="buttons">
+    <div class="pull-right">
+        <input type="button" value="{{ button_confirm }}" id="button-confirm" class="btn btn-black" onclick="document.mypos_virtual.submit();" />
+    </div>
+</div>

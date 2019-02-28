@@ -1,0 +1,25 @@
+{{ header }}
+<div id="common-test" style="max-width: 1170px; margin: auto">
+    <div class="first-container">
+        <div class="tab1">
+            <a id="tab1" href="/index.php?route=common/home">
+                <img style="width:100%" src="/image/teas.jpg"/>
+
+            </a>
+            <div>{{ categories[0].name }}</div>
+        </div>
+
+        <div class="tab2">
+
+            <a id="tab2" href="/index.php?route=common/home&tab=2">
+                <img style="width:100%" src="/image/dishes.jpg"/>
+            </a>
+            <div>{{ categories[1].name }}</div>
+
+        </div>
+
+
+    </div>
+
+</div>
+{{ footer }}
