@@ -118,22 +118,22 @@
       <find>payment_bank_transfer_geo_zone_id</find>
       <find>payment_m</find>
       <find>praha</find>
-      <find>na dobírku</find>
+      <find />
       <find>dobírku</find>
       <find>payment_cod2_total</find>
       <find>payment_cod2_status</find>
       <find>payment_cod_status</find>
-      <find>Osobní odběr</find>
-      <find>Prosím zvolte preferovaný způsob dopravy.</find>
+      <find />
+      <find />
       <find>text_shipping_method</find>
-      <find>Prosím zvolte preferovanou platební metodu.</find>
+      <find />
       <find>text_payment_method</find>
       <find>flat.flat</find>
       <find>shipping_me</find>
-      <find>= 'cod'</find>
+      <find />
       <find>$totals</find>
       <find>total_handling_fee</find>
-      <find>session-&gt;data['shipping_method']['code'] =</find>
+      <find />
       <find>50Kč</find>
       <find>payment_cod_total</find>
       <find>method_data</find>
@@ -146,11 +146,11 @@
       <replace>ic</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>C:\Program Files\OSPanel\domains\tea.loc\catalog\view\theme\default\template\checkout</dir>
-      <dir>C:\Program Files\OSPanel\domains\tea.loc\catalog\controller</dir>
-      <dir>C:\Program Files\OSPanel\domains\tea.loc\admin\view\template\sale</dir>
-      <dir>C:\Program Files\OSPanel\domains\tea.loc\catalog</dir>
-      <dir>C:\Program Files\OSPanel\domains\tea.loc</dir>
+      <dir />
+      <dir />
+      <dir />
+      <dir />
+      <dir />
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -211,11 +211,11 @@
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\Program Files\OSPanel\domains\tea.loc" selected_validation_type="LOCAL" web_path_to_validation_script="http://tea.loc/" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="105" />
-    <option name="width" value="1940" />
-    <option name="height" value="914" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="731" />
+    <option name="y" value="157" />
+    <option name="width" value="1766" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -320,12 +320,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/catalog/controller/checkout/confirm.php</url>
+          <url />
           <line>417</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/catalog/controller/checkout/payment_method.php</url>
+          <url />
           <line>124</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
