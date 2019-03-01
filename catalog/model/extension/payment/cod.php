@@ -18,7 +18,7 @@ class ModelExtensionPaymentCOD extends Model {
 		}
 
 		$method_data = array();
-		if ($this->session->data['shipping_method']['code'] != 'flat.flat') {
+		if ($this->session->data['shipping_method']['code'] != 'flat.flat' && $this->session->data['shipping_method']['code'] != 'pickup.pickup') {
             return $method_data;
         }
 

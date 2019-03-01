@@ -7,7 +7,7 @@ class ModelExtensionTotalHandling extends Model {
 			$value = $this->config->get('total_handling_fee');
 
 
-            if (isset($this->session->data['payment_method']['code']) && $this->session->data['payment_method']['code'] != 'cod' ) {
+           /* if (isset($this->session->data['payment_method']['code']) && $this->session->data['payment_method']['code'] != 'cod' ) {
                 return;
             }
 
@@ -21,10 +21,12 @@ class ModelExtensionTotalHandling extends Model {
                         return;
                     }
                 }
-			}
+			}*/
+
+           $value =  $this->config->get("payment_{$this->session->data['payment_method']['code']}_total");
 			$total['totals'][] = array(
 				'code'       => 'handling',
-				'title'      => $this->language->get('text_handling'),
+				'title'      => $this->session->data['payment_method']['title'],
 				'value'      => $value,
 				'sort_order' => $this->config->get('total_handling_sort_order')
 			);
@@ -41,7 +43,7 @@ class ModelExtensionTotalHandling extends Model {
 				}
 			}
 
-			$total['total'] += $this->config->get('total_handling_fee');
+			$total['total'] += $value;
 		}
 	}
 }
