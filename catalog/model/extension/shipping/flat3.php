@@ -1,11 +1,11 @@
 <?php
-class ModelExtensionShippingFlat2 extends Model {
+class ModelExtensionShippingFlat3 extends Model {
     function getQuote($address) {
-        $this->load->language('extension/shipping/flat2');
+        $this->load->language('extension/shipping/flat3');
 
         $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "zone_to_geo_zone WHERE geo_zone_id = '" . (int)$this->config->get('shipping_flat_geo_zone_id') . "' AND country_id = '" . (int)$address['country_id'] . "' AND (zone_id = '" . (int)$address['zone_id'] . "' OR zone_id = '0')");
 
-        if (!$this->config->get('shipping_flat2_geo_zone_id')) {
+        if (!$this->config->get('shipping_flat3_geo_zone_id')) {
             $status = true;
         } elseif ($query->num_rows) {
             $status = true;
@@ -18,23 +18,23 @@ class ModelExtensionShippingFlat2 extends Model {
         if ($status) {
             $quote_data = array();
             $total = $this->cart->getTotal();
-            $cost = $this->config->get('shipping_flat2_cost');
-            if ($total > $this->config->get('shipping_flat2_sum_free_shipping')){
+            $cost = $this->config->get('shipping_flat3_cost');
+            if ($total > $this->config->get('shipping_flat3_sum_free_shipping')){
                 $cost = 0;
             }
-            $quote_data['flat2'] = array(
-                'code'         => 'flat2.flat2',
+            $quote_data['flat3'] = array(
+                'code'         => 'flat3.flat3',
                 'title'        => $this->language->get('text_description'),
                 'cost'         => $cost,
-                'tax_class_id' => $this->config->get('shipping_flat2_tax_class_id'),
+                'tax_class_id' => $this->config->get('shipping_flat3_tax_class_id'),
                 'text'         => $this->currency->format($this->tax->calculate($cost, $this->config->get('shipping_flat_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency'])
             );
 
             $method_data = array(
-                'code'       => 'flat2',
+                'code'       => 'flat3',
                 'title'      => $this->language->get('text_title'),
                 'quote'      => $quote_data,
-                'sort_order' => $this->config->get('shipping_flat2_sort_order'),
+                'sort_order' => $this->config->get('shipping_flat3_sort_order'),
                 'error'      => false
             );
         }
