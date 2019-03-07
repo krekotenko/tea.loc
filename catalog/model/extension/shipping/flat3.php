@@ -15,30 +15,35 @@ class ModelExtensionShippingFlat3 extends Model {
 
         $method_data = array();
 
-        if ($status) {
-            $quote_data = array();
-            $total = $this->cart->getTotal();
-            $cost = $this->config->get('shipping_flat3_cost');
-            if ($total > $this->config->get('shipping_flat3_sum_free_shipping')){
-                $cost = 0;
-            }
-            $quote_data['flat3'] = array(
-                'code'         => 'flat3.flat3',
-                'title'        => $this->language->get('text_description'),
-                'cost'         => $cost,
-                'tax_class_id' => $this->config->get('shipping_flat3_tax_class_id'),
-                'text'         => $this->currency->format($this->tax->calculate($cost, $this->config->get('shipping_flat_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency'])
-            );
+        if ($address['country_id'] == 56) {
+            return $method_data;
+        } else {
+            if ($status) {
+                $quote_data = array();
+                $total = $this->cart->getTotal();
+                $cost = $this->config->get('shipping_flat3_cost');
+                if ($total > $this->config->get('shipping_flat3_sum_free_shipping')){
+                    $cost = 0;
+                }
+                $quote_data['flat3'] = array(
+                    'code'         => 'flat3.flat3',
+                    'title'        => $this->language->get('text_description'),
+                    'cost'         => $cost,
+                    'tax_class_id' => $this->config->get('shipping_flat3_tax_class_id'),
+                    'text'         => $this->currency->format($this->tax->calculate($cost, $this->config->get('shipping_flat_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency'])
+                );
 
-            $method_data = array(
-                'code'       => 'flat3',
-                'title'      => $this->language->get('text_title'),
-                'quote'      => $quote_data,
-                'sort_order' => $this->config->get('shipping_flat3_sort_order'),
-                'error'      => false
-            );
+                $method_data = array(
+                    'code'       => 'flat3',
+                    'title'      => $this->language->get('text_title'),
+                    'quote'      => $quote_data,
+                    'sort_order' => $this->config->get('shipping_flat3_sort_order'),
+                    'error'      => false
+                );
+            }
+
+            return $method_data;
         }
 
-        return $method_data;
     }
 }

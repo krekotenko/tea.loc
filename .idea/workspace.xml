@@ -2,75 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9b0f7a-37a0-4b16-acb5-f319bd157358" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/controller/extension/shipping/flat3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/language/cz-cz/extension/shipping/flat3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/shipping/flat3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/view/template/extension/shipping/flat3.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/storage/cache/cache.catalog.language.1551864802" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view/stylesheet/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/stylesheet/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat2.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/dishes/cup 3in1-250x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/dishes/cup 3in1-250x250.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/dishes/cup 3in1-40x40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/dishes/cup 3in1-40x40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-100x100.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-100x100.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-228x228.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-228x228.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-47x47.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-47x47.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-500x500.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_Silver Needle-500x500.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_White_Peony-200x200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_White_Peony-200x200.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/001_White_Peony-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/001_White_Peony-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/003_Imperial Shu Puer-200x200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/003_Imperial Shu Puer-200x200.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/003_Imperial Shu Puer-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/003_Imperial Shu Puer-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/003_Imperial Shu Puer-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/003_Imperial Shu Puer-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/003_Milk oolong-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/003_Milk oolong-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/003_Milk oolong-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/003_Milk oolong-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/004_Da hong  Pao-200x200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/004_Da hong  Pao-200x200.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/004_Da hong  Pao-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/004_Da hong  Pao-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/004_Da hong  Pao-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/004_Da hong  Pao-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/004_Ginseng oolong-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/004_Ginseng oolong-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/004_Ginseng oolong-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/004_Ginseng oolong-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/005_Lapsang Souchong-200x200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/005_Lapsang Souchong-200x200.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/005_Lapsang Souchong-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/005_Lapsang Souchong-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/005_Lapsang Souchong-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/005_Lapsang Souchong-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/005_Osmanthus oolong-200x200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/005_Osmanthus oolong-200x200.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/005_Osmanthus oolong-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/005_Osmanthus oolong-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/006_Jasmine Dragon Ball-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/006_Jasmine Dragon Ball-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/006_Jasmine Dragon Ball-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/006_Jasmine Dragon Ball-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/006_unan black-200x200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/006_unan black-200x200.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/006_unan black-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/006_unan black-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/007_Darjeeling-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/007_Darjeeling-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/007_Darjeeling-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/007_Darjeeling-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/007_Dragon Well-200x200.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/007_Dragon Well-200x200.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/007_Dragon Well-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/007_Dragon Well-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/007_Dragon Well-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/007_Dragon Well-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/008_Rooibos-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/008_Rooibos-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/009_Japanese Sencha-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/009_Japanese Sencha-200x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/009_Japanese Sencha-250x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/009_Japanese Sencha-250x250.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/009_Japanese Sencha-40x40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/009_Japanese Sencha-40x40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/011_Rose Black tea-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/011_Rose Black tea-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/012_Lychee Black tea-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/012_Lychee Black tea-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/012_Lychee Black tea-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/012_Lychee Black tea-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/013_Green_Tea_A (maofen)-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/013_Green_Tea_A (maofen)-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/013_Green_Tea_A (maofen)-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/013_Green_Tea_A (maofen)-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/3.On a wave of harmony-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/3.On a wave of harmony-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/3.On a wave of harmony-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/3.On a wave of harmony-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/4.Way of nature-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/4.Way of nature-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/5.Awakening-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/5.Awakening-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/5.Awakening-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/5.Awakening-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/English-Breakfast-250x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/English-Breakfast-250x250.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/English-Breakfast-40x40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/English-Breakfast-40x40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/Jasmine green-250x250.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/Jasmine green-250x250.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/Jasmine green-40x40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/Jasmine green-40x40.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/earl_grey-250x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/earl_grey-250x250.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/earl_grey-40x40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/earl_grey-40x40.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/catalog/teas/sweet_passion-250x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/teas/sweet_passion-250x250.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/cache/no_image-100x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/no_image-100x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/extension/shipping/pickup.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/extension/shipping/pickup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tea_db.sql" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,17 +26,54 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="58" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="58" />
+            <state relative-caret-position="544">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flat3.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/view/template/extension/shipping/flat3.twig">
+      <file leaf-file-name="pickup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/pickup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" column="104" selection-start-line="87" selection-start-column="104" selection-end-line="87" selection-end-column="104" />
+            <state relative-caret-position="306">
+              <caret line="18" column="32" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flat1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="flat2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="32" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,67 +81,26 @@
       <file leaf-file-name="flat3.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="374">
+              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flat3.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="flat2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flat3.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flat1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flat2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flat3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flat2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="51">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -247,18 +185,20 @@
         <option value="$PROJECT_DIR$/catalog/controller/checkout/payment_method.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/payment_method.twig" />
         <option value="$PROJECT_DIR$/catalog/model/extension/total/handling.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/admin/controller/extension/shipping/flat3.php" />
         <option value="$PROJECT_DIR$/admin/language/cz-cz/extension/shipping/flat3.php" />
         <option value="$PROJECT_DIR$/admin/language/en-gb/extension/shipping/flat3.php" />
         <option value="$PROJECT_DIR$/admin/view/template/extension/shipping/flat3.twig" />
-        <option value="$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php" />
-        <option value="$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php" />
-        <option value="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php" />
         <option value="$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat2.php" />
         <option value="$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat3.php" />
-        <option value="$PROJECT_DIR$/admin/config.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/admin/config.php" />
+        <option value="$PROJECT_DIR$/catalog/model/extension/shipping/pickup.php" />
+        <option value="$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php" />
+        <option value="$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php" />
+        <option value="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat2.php" />
+        <option value="$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php" />
       </list>
     </option>
   </component>
@@ -283,9 +223,9 @@
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="C:\Program Files\OSPanel\domains\tea.loc" selected_validation_type="LOCAL" web_path_to_validation_script="http://tea.loc/" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
-    <option name="y" value="149" />
-    <option name="width" value="1766" />
+    <option name="x" value="479" />
+    <option name="y" value="213" />
+    <option name="width" value="1413" />
     <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -294,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,14 +258,14 @@
               <item name="tea.loc" type="462c0819:PsiDirectoryNode" />
               <item name="catalog" type="462c0819:PsiDirectoryNode" />
               <item name="language" type="462c0819:PsiDirectoryNode" />
-              <item name="en-gb" type="462c0819:PsiDirectoryNode" />
+              <item name="cz-cz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tea.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="tea.loc" type="462c0819:PsiDirectoryNode" />
               <item name="catalog" type="462c0819:PsiDirectoryNode" />
               <item name="language" type="462c0819:PsiDirectoryNode" />
-              <item name="en-gb" type="462c0819:PsiDirectoryNode" />
+              <item name="cz-cz" type="462c0819:PsiDirectoryNode" />
               <item name="extension" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,7 +273,7 @@
               <item name="tea.loc" type="462c0819:PsiDirectoryNode" />
               <item name="catalog" type="462c0819:PsiDirectoryNode" />
               <item name="language" type="462c0819:PsiDirectoryNode" />
-              <item name="en-gb" type="462c0819:PsiDirectoryNode" />
+              <item name="cz-cz" type="462c0819:PsiDirectoryNode" />
               <item name="extension" type="462c0819:PsiDirectoryNode" />
               <item name="shipping" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -340,26 +281,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../opencart.loc/config.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OSPanel\domains\tea.loc\system\storage\cache" />
+      <recent name="C:\Program Files\OSPanel\domains\tea.loc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OSPanel\domains\tea.loc\catalog\language\en-gb\extension\shipping" />
       <recent name="E:\OSPanel\domains\tea.loc\catalog\language\cz-cz\extension\shipping" />
       <recent name="E:\OSPanel\domains\tea.loc\catalog\model\extension\shipping" />
       <recent name="E:\OSPanel\domains\tea.loc\admin\view\template\extension\shipping" />
       <recent name="E:\OSPanel\domains\tea.loc\admin\language\en-gb\extension\shipping" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files\OSPanel\domains\tea.loc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,40 +328,54 @@
       <workItem from="1551354843916" duration="1461000" />
       <workItem from="1551437260491" duration="13970000" />
       <workItem from="1551519218503" duration="2113000" />
+      <workItem from="1551772062623" duration="128000" />
+      <workItem from="1551860822927" duration="1331000" />
+      <workItem from="1551875684101" duration="4666000" />
+      <workItem from="1551943757060" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22936000" />
+    <option name="totallyTimeSpent" value="30568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="149" width="1766" height="739" extended-state="0" />
+    <frame x="479" y="213" width="1413" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16002345" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2670007" />
       <window_info anchor="bottom" id="TODO" order="15" />
       <window_info anchor="bottom" id="Docker" order="17" />
       <window_info anchor="bottom" id="Event Log" order="21" side_tool="true" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="19" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="18" />
+      <window_info anchor="bottom" id="Version Control" order="18" weight="0.7083333" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="20" weight="0.32943678" />
+      <window_info anchor="bottom" id="Terminal" order="20" visible="true" weight="0.14583333" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.51647186" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Messages" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -443,78 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/model/sale/order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/sale/order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14280">
-          <caret line="840" column="80" selection-start-line="840" selection-start-column="59" selection-end-line="840" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/view/template/sale/order_info.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="139" column="55" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/startup/startup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="174" column="84" selection-start-line="174" selection-start-column="84" selection-end-line="174" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/checkout/checkout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/payment/bank_transfer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="63" column="105" selection-start-line="63" selection-start-column="96" selection-end-line="63" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/model/extension/payment/bank_transfer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/pickup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/extension/payment/cod2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/payment/cod2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/payment/cod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/model/extension/payment/cardinity.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -648,16 +531,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../opencart.loc/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../opencart.loc/config.php" />
     <entry file="file://$PROJECT_DIR$/admin/controller/extension/payment/bank_transfer.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -689,27 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/language/en-gb/extension/shipping/flat.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -734,17 +587,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config.php">
+    <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/extension/shipping/flat2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/cache/file.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/language/cz-cz/extension/shipping/flat2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tea_db.sql" />
+    <entry file="file://$PROJECT_DIR$/sql.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/language/en-gb/extension/shipping/flat1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="49" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/language/en-gb/extension/shipping/flat2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/pickup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/model/extension/shipping/flat3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/extension/shipping/flat2.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="104" selection-start-line="87" selection-start-column="104" selection-end-line="87" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/cz-cz/extension/shipping/flat3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
         </state>
       </provider>
     </entry>
