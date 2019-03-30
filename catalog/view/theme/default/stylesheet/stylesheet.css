@@ -1124,3 +1124,7 @@ h2.price {
 	font-weight: 600;
 	color: red;
 }
+
+.owl-wrapper-outer {
+	box-shadow: none;
+}

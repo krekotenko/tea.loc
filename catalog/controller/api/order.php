@@ -791,7 +791,12 @@ class ControllerApiOrder extends Controller {
 			$order_info = $this->model_checkout_order->getOrder($order_id);
 
 			if ($order_info) {
-				$this->model_checkout_order->addOrderHistory($order_id, $this->request->post['order_status_id'], $this->request->post['comment'], $this->request->post['notify'], $this->request->post['override']);
+			    $order_status = $this->request->post['order_status_id'];
+				$this->model_checkout_order->addOrderHistory($order_id, $order_status, $this->request->post['comment'], $this->request->post['notify'], $this->request->post['override']);
+
+				if (($order_status == 1 || $order_status == 3 || $order_status == 15 || $order_status == 16 || $order_status == 5) && $order_status != $order_info['order_status_id']) {
+                    $this->sendEmail($order_status, $order_info);
+                }
 
 				$json['success'] = $this->language->get('text_success');
 			} else {
@@ -802,4 +807,34 @@ class ControllerApiOrder extends Controller {
 		$this->response->addHeader('Content-Type: application/json');
 		$this->response->setOutput(json_encode($json));
 	}
+
+	private function sendEmail ($order_status, $order_info) {
+        $language = new Language($order_info['language_code']);
+        $language->load($order_info['language_code']);
+        $language->load('mail/order_edit');
+
+
+        $this->load->model('setting/setting');
+        $from = $this->model_setting_setting->getSettingValue('config_email', $order_info['store_id']);
+
+        if (!$from) {
+            $from = $this->config->get('config_email');
+        }
+
+        $mail = new Mail($this->config->get('config_mail_engine'));
+        $mail->parameter = $this->config->get('config_mail_parameter');
+        $mail->smtp_hostname = $this->config->get('config_mail_smtp_hostname');
+        $mail->smtp_username = $this->config->get('config_mail_smtp_username');
+        $mail->smtp_password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
+        $mail->smtp_port = $this->config->get('config_mail_smtp_port');
+        $mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
+
+        $mail->setTo($order_info['email']);
+        $mail->setFrom($from);
+        $mail->setSender(html_entity_decode($order_info['store_name'], ENT_QUOTES, 'UTF-8'));
+        $mail->setSubject(html_entity_decode(sprintf($language->get('text_subject'), $order_info['store_name'], $order_info['order_id']), ENT_QUOTES, 'UTF-8'));
+        $mail->setHtml($this->load->view('mail/order_change_status', ['status' => $order_status]));
+        $mail->send();
+    }
+
 }

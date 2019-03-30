@@ -19,17 +19,17 @@
                 {% else %}
                     {% set class = 'col-sm-8' %}
                 {% endif %}
-                <div class="{{ class }}"> {% if thumb or images %}
-                        <ul class="thumbnails">
+                <div  class="{{ class }}"> {% if thumb or images %}
+                        <div id="productSlider">
                             {% if thumb %}
-                                <li><a class="thumbnail" href="{{ popup }}" title="{{ heading_title }}"><img src="{{ thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" /></a></li>
+                                    <a class="thumbnail" href="{{ popup }}" title="{{ heading_title }}"><img src="{{ thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" /></a>
                             {% endif %}
                             {% if images %}
                                 {% for image in images %}
-                                    <li class="image-additional"><a class="thumbnail" href="{{ image.popup }}" title="{{ heading_title }}"> <img src="{{ image.thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" /></a></li>
+                                    <a class="thumbnail" href="{{ image.popup }}" title="{{ heading_title }}"> <img src="{{ image.thumb }}" title="{{ heading_title }}" alt="{{ heading_title }}" /></a>
                                 {% endfor %}
                             {% endif %}
-                        </ul>
+                        </div>
                     {% endif %}
                     {#<ul class="nav nav-tabs">#}
                     {#<li class="active"><a href="#tab-description" data-toggle="tab">{{ tab_description }}</a></li>#}
@@ -353,6 +353,26 @@
         {{ column_right }}</div>
 </div>
 <script type="text/javascript"><!--
+    $(document).ready(function() {
+        $('#productSlider').magnificPopup({
+            type:'image',
+            delegate: 'a',
+            gallery: {
+                enabled: true
+            }
+        });
+        $('#productSlider').owlCarousel({
+            items: 1,
+            autoPlay: 3000,
+            navigation: true,
+            navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
+            pagination: false,
+            loop: true
+        });
+    });
+
+    --></script>
+<script type="text/javascript"><!--
     $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
         $.ajax({
             url: 'index.php?route=product/product/getRecurringDescription',
@@ -539,16 +559,6 @@
                     $('textarea[name=\'text\']').val('');
                     $('input[name=\'rating\']:checked').prop('checked', false);
                 }
-            }
-        });
-    });
-
-    $(document).ready(function() {
-        $('.thumbnails').magnificPopup({
-            type:'image',
-            delegate: 'a',
-            gallery: {
-                enabled: true
             }
         });
     });

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{ title }}</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000;">
+<div style="width: 680px;"><a href="{{ store_url }}" title="{{ store_name }}"><img src="{{ logo }}" alt="{{ store_name }}" style="margin-bottom: 20px; border: none;width:80px;" /></a>
+{% if (status == 1 or status == 0) %}
+    <p style="margin-top: 0px; margin-bottom: 20px;">Vážený zákazníku,</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">děkujeme za Vaši objednávku. Naši čajoví andílci se co nejdříve pustí do jejího zpracování. A jelikož se nemohou dočkat chvíle, kdy si budete moci vychutnat čaj vypěstovaný a připravený s opravdovou láskou, udělají vše pro to, aby se k Vám dostal co nejdříve.</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Přejeme Vám krásný den a jakmile bude Vaše zboží připraveno, hned se Vám ozveme.</p>
+    <h3>Tým White Peony</h3>
+{% elseif status == 3 %}
+    <p style="margin-top: 0px; margin-bottom: 20px;">Vážený zákazníku,</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Vaše objednávka byla úspěšně zpracována. Naši čajoví andílci ji pro Vás s láskou připravili a již odeslali. V nejbližších dnech tedy můžete očekávat doručení zásilky!</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Děkujeme za Váš nákup a doufáme, že Vás naše čaje potěší  svou jedinečnou chutí a vůní a projasní Váš den.</p>
+    <h3>Tým White Peony</h3>
+{% elseif status == 15 %}
+    <p style="margin-top: 0px; margin-bottom: 20px;">Vážený zákazníku,</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Vaše objednávka byla úspěšně zpracována. Naši čajoví andílci ji pro Vás s láskou připravili a těší se, až si ji přijdete vyzvednout do naší provozovny ul.Kubova 6, Praha 8 od 10:00 do 17:00.</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Děkujeme za Váš nákup a doufáme, že Vás plná a jedinečná chuť a vůně našich čajů potěší, povzbudí a učiní každý okamžik dokonalým.</p>
+    <h3>Tým White Peony</h3>
+{% elseif status == 16 %}
+    <p style="margin-top: 0px; margin-bottom: 20px;">Vážený zákazníku,</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">velice se omlouváme, požadované zboží  bohužel v tuto chvíli nemáme skladem. Ale ze všech sil pracujeme na tom, abychom Vaši objednávku vyřídili co nejdříve a vy jste si brzy mohli vychutnat jedinečnou chuť a vůni našich s láskou připravených čajů.</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Proto Vás prosíme o trpělivost. Jakmile Vámi objednané zboží dorazí, naši čajoví andílci ho pro Vás okamžitě připraví.</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Přejeme Vám krásný den a ozveme se ihned, jakmile bude zásilka připravena k expedici.</p>
+    <h3>Tým White Peony</h3>
+{% elseif status == 5 %}
+    <p style="margin-top: 0px; margin-bottom: 20px;">Vážený zákazníku,</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">velice děkujeme za Váš nákup a doufáme, že Vám čaje White Peony, připravené z pečlivě vybraných a usušených lístků a bylinek, zprostředkovaly jedinečné okamžiky.</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">A jelikož nám i našim čajovým andílkům na našich zákaznících opravdu záleží a chceme se neustále zlepšovat, budeme rádi, když nám věnujete chvilku svého času a ohodnotíte naše služby.</p>
+    <p style="margin-top: 0px; margin-bottom: 20px;">Přejeme Vám krásný den plný pohody a těšíme se, až nás znovu navštívíte v našem e-shopu.</p>
+    <h3>Tým White Peony</h3>
+{% endif %}
+</div>
+</body>
+</html>
