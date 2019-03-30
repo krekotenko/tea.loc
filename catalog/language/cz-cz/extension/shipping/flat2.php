@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_title']       = 'v Evropě';
-$_['text_description'] = 'v Evropě';
+$_['text_title']       = 'Evropské země';
+$_['text_description'] = 'Evropské země';

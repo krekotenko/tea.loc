@@ -1,15 +1,15 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://eshop.whitepeony.eu/');
+define('HTTP_SERVER', 'http://tea.loc/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://eshop.whitepeony.eu/');
+define('HTTPS_SERVER', 'http://tea.loc/');
 
 // DIR
-define('DIR_APPLICATION', '/www/doc/www.whitepeony.eu/www/catalog/');
-define('DIR_SYSTEM', '/www/doc/www.whitepeony.eu/www/system/');
-define('DIR_IMAGE', '/www/doc/www.whitepeony.eu/www/image/');
-define('DIR_STORAGE', '/www/doc/www.whitepeony.eu/www/storage/');
+define('DIR_APPLICATION', 'W:/domains/tea.loc/catalog/');
+define('DIR_SYSTEM', 'W:/domains/tea.loc/system/');
+define('DIR_IMAGE', 'W:/domains/tea.loc/image/');
+define('DIR_STORAGE', 'W:/domains/tea.loc/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -22,9 +22,9 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'uvdb37.active24.cz');
-define('DB_USERNAME', 'whitepeony');
-define('DB_PASSWORD', 'Uirt0K0YWU');
-define('DB_DATABASE', 'whitepeony');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'tea_db');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');

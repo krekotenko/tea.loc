@@ -24852,3 +24852,28 @@
 2019-03-02 9:55:53 - PHP Warning:  unlink(E:/OSPanel/domains/tea.loc/storage/cache/cache.catalog.language.1551524153): Resource temporarily unavailable in E:\OSPanel\domains\tea.loc\system\library\cache\file.php on line 68
 2019-03-02 9:56:02 - PHP Warning:  unlink(E:/OSPanel/domains/tea.loc/storage/cache/cache.catalog.language.1551524162): Resource temporarily unavailable in E:\OSPanel\domains\tea.loc\system\library\cache\file.php on line 68
 2019-03-02 10:03:48 - PHP Warning:  unlink(E:/OSPanel/domains/tea.loc/storage/cache/cache.catalog.language.1551524628): Resource temporarily unavailable in E:\OSPanel\domains\tea.loc\system\library\cache\file.php on line 68
+2019-03-06 8:30:00 - PHP Warning:  mysqli::__construct(): (HY000/2002): ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ in W:\domains\tea.loc\system\library\db\mysqli.php on line 7
+2019-03-06 8:30:00 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 8:30:00 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 8:30:05 - PHP Warning:  mysqli::__construct(): (HY000/2002): ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ in W:\domains\tea.loc\system\library\db\mysqli.php on line 7
+2019-03-06 8:30:05 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 8:30:05 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 8:31:17 - PHP Warning:  mysqli::__construct(): (HY000/2002): ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ in W:\domains\tea.loc\system\library\db\mysqli.php on line 7
+2019-03-06 8:31:17 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 8:31:17 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 8:33:22 - PHP Warning:  unlink(W:/domains/tea.loc/storage/cache/cache.catalog.language.1551864802): No such file or directory in W:\domains\tea.loc\system\library\cache\file.php on line 68
+2019-03-06 14:43:45 - PHP Warning:  mysqli::__construct(): (HY000/2002): ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ in W:\domains\tea.loc\system\library\db\mysqli.php on line 7
+2019-03-06 14:43:45 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 14:43:45 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 14:43:49 - PHP Warning:  mysqli::__construct(): (HY000/2002): ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ in W:\domains\tea.loc\system\library\db\mysqli.php on line 7
+2019-03-06 14:43:49 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 14:43:49 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 14:44:28 - PHP Warning:  mysqli::__construct(): (HY000/2002): ������ ��������� ���������� ��� ����������, �.�. �� ������� �������� �� ��������� ���� �� ������ ����� ������, ��� ��� ��������� ��� ������������� ���������� ��-�� ��������� ������� ��� ����������� ��������.
+ in W:\domains\tea.loc\system\library\db\mysqli.php on line 7
+2019-03-06 14:44:28 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
+2019-03-06 14:44:28 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in W:\domains\tea.loc\system\library\db\mysqli.php on line 10
